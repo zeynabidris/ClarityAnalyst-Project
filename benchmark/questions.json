@@ -1,0 +1,9 @@
+[
+ {"id":"Q1","type":"simple","question":"What was the total revenue across all orders?","kind":"number","answer":13918.5,"label_regex":null},
+ {"id":"Q2","type":"simple","question":"Which menu item had the highest total revenue, and how much was it?","kind":"name+number","answer":2002.0,"label":"Margherita pizza","label_regex":"margherita"},
+ {"id":"Q3","type":"simple","question":"Which weekday had the most orders, and how many orders?","kind":"name+number","answer":106,"label":"Saturday","label_regex":"saturday"},
+ {"id":"Q4","type":"multi-step","question":"Which course earned the highest total margin, and what was that margin?","kind":"name+number","answer":5776.4,"label":"main","label_regex":"\\bmains?\\b"},
+ {"id":"Q5","type":"multi-step","question":"Which hour of the day had the highest total revenue, and how much was it?","kind":"name+number","answer":2011.0,"label":"19 (7 PM)","label_regex":"\\b19(:00)?\\b|\\b7(:00)?\\s*(pm|p\\.m\\.)|7 in the evening"},
+ {"id":"Q6","type":"multi-step","question":"Which menu item had the biggest drop in revenue from the first four weeks (3 Mar to 30 Mar 2025) to the last four weeks (31 Mar to 27 Apr 2025), and by how much?","kind":"name+number","answer":214.5,"label":"Grilled salmon","label_regex":"salmon"},
+ {"id":"Q7","type":"unanswerable","question":"How much revenue was lost to comps or discounts during this period?","kind":"decline","answer":null,"label":"Cannot be answered: no comp or discount data exists (prices fixed, nothing voided, comped or discounted).","label_regex":null}
+]
